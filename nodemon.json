@@ -1,0 +1,11 @@
+{
+	"watch": ["src", ".env"],
+	"ext": "ts",
+	"env": {
+		"NODE_ENV": "development",
+		"PORT": 8100,
+		"NODEMON": true
+	},
+	"ignore": ["src/**/*.test.*"],
+	"exec": "clear && npm run build && npm start"
+}
